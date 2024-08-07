@@ -2,27 +2,27 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernumber = ['919931122319']
-global.ownername = "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰"//owner name
-global.ytname = "YT: AyushBotz.inc"
-global.socialm = "GitHub: Ayushpandey023"
+global.ownernumber = ['918101821810']
+global.ownername = "★ σвιтσ-кυη ★"//owner name
+global.ytname = "YT: ObitoBotz.inc"
+global.socialm = "GitHub: UchihaObito786"
 global.location = "Indian"
 
-global.botname = '𝐌𝐀𝐑𝐈𝐀-𝐌𝐃' //name of the bot
+global.botname = '★ σвιтσ-кυη ★' //name of the bot
 
 //sticker details
-global.stickername = '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰'
-global.packname = 'Sticker By'
-global.author = 'Maria Bot'
+global.stickername = '★ σвιтσ-кυη ★'
+global.packname = '𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗕𝘆'
+global.author = '★ σвιтσ-кυη ★'
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "Ayush botz inc."
+global.wm = "Obito botz inc."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
+global.link = 'https://chat.whatsapp.com/KWAadDw545X2Re1F6RjjEz'
 
 //custom prefix
-global.prefa = ['.']
+global.prefa = ['!']
 
 //false=disable and true=enable
 global.welcome = false //auto welcome
