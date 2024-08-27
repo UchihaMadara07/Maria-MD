@@ -1,6 +1,6 @@
 require('./plugins')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getAggregateVotesInPollMessage,getContentType, delay, decodeJid } = require('@whiskeysockets/baileys')
-const { SendGroupInviteMessageToUser } = require("@queenanya/invite")
+const { SendGroupInviteMessageToUser, mentiono } = require("@queenanya/invite")
 const Config = require("./Config")
 const os = require('os')
 const fs = require('fs')
@@ -491,7 +491,15 @@ if (global.groupOnly && !m.isGroup && !isCreator) {
         return reply(` Hey there! To keep things smooth please use my features in group chats only \n\n Need help? Just message my owner at wa.me/${ownernumber} `);
     }
 }
-  
+
+	    // Mention Audio Code
+	    let ownernumber = global.ownernumber;
+	    let botNumber = Maria.decodeJid(Maria.user.id);
+	    let prefixi = global.prefa
+	    await mentiono(Maria, m, ownernumber, botNumber, null, global.prefa) => {
+
+
+		    
             switch (command) {
             	
             case 'grouponly':
